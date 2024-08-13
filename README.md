@@ -7,13 +7,13 @@ By: Yara  https://github.com/Yelemam/Project1-Telecom-Stock
     
 ## Project Overview
    This project analyzes the stock performance of three major telecom companies: AT&T(T), T-Mobile (TMUS), and Verizon (VZ) over a one-year period until today. 
-   The analysis includes trend analysis, volatility assessment, correlation studies, performance comparisons, divedend and P/E ratio to provide insights for
+   The analysis includes trend analysis, volatility assessment, correlation studies, performance comparisons, divedend rate and P/E ratio to provide insights for
    potential investors.
 
 ## Data Source
    The data used in this analysis is sourced from Python with the yfinance library. This library allows you to easily download historical market data from Yahoo
    Finance. This data contains daily trading information including opening, closing, high, and low prices, 
-   as well as trading volumes , corporate actins and earnings dara for each company.
+   as well as trading volumes , corporate actions and earnings data for each company.
 
 ## Analysis Performed
 
@@ -61,13 +61,10 @@ By: Yara  https://github.com/Yelemam/Project1-Telecom-Stock
      Volume graph: https://raw.githubusercontent.com/Yelemam/Project1-Telecom-Stock/main/Volume.png
      
 9. **Dividend and P/E ratio**
-   - Retrieves the dividends per share, quarterly financials, and general information for the stock.
-   - Calculates the dividend yield by summing up the dividends per share and dividing by the last closing price of the stock.
-   - Calculate the EPS (Earnings Per Share) by summing the net income for the last four quarters and subtracting preferred dividends, then dividing by the number
-     of shares outstanding.
-   - Finally, it calculates the P/E ratio by dividing the last closing price by the EPS if EPS is not None. .
-
-9. **Summary Statistics**
+   - Retrieves the dividends rate and trailling price to earning ratio from yfinance.
+   - Calculate dividend yield by taking dividend rate/ last stock price.
+  
+10. **Summary Statistics**
    - Compilation of key statistics including start price, end price, percent change, average daily return, and volatility.
    - Provides a quick overview of each stock's performance.
 
@@ -79,16 +76,14 @@ By: Yara  https://github.com/Yelemam/Project1-Telecom-Stock
    which is crucial for portfolio diversification.
 4. Volume Trends: The trading volume analysis provides insights into the liquidity
    of each stock.
-5. AT&T stands out for its relatively high dividend yield, making it potentially attractive for income-seeking investors. TMUS has a higher P/E ratio, suggesting 
-   that investors have higher growth expectations for the company compared to Verizon and AT&T. VZ falls in between the other two companies in terms of both 
-   dividend yield and P/E ratio.
+5. VZ stands out for its relatively high dividend yield, making it potentially attractive for income-seeking investors. T falls in between the other two companies in terms of both dividend yield and P/E ratio.
 
 ## Recommendations
 
 Based on the analysis, the script provides a basic recommendation for portfolio composition, considering both growth potential and stability. 
 However, it emphasizes that these recommendations should be considered in the context of an investor's risk tolerance and overall investment strategy.
-For income-oriented investors looking for steady dividends, T may be a suitable choice. Investors seeking growth potential may consider TMUS due to
-its higher P/E ratio and VZ could be a balanced choice for investors looking for a mix of dividends and growth potential.
+For income-oriented investors looking for steady dividends, VZ may be a suitable choice. T could be a balanced choice for investors looking for a mix 
+of dividends and possible bargain.
 
 ## Limitations and Future Improvements
 
