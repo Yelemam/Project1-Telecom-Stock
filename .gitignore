@@ -8,6 +8,9 @@ api_keys.py
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
+# Deleted file 
+~$Telecommunication Stocks.pptx
+
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
