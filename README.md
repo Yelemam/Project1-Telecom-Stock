@@ -1,5 +1,5 @@
 # Telecom Stock Analysis
-By: Yara  https://github.com/Yelemam/Project1-Telecom-Stock
+    Teaam Lead :Yara  https://github.com/Yelemam/Project1-Telecom-Stock
     Hunter https://github.com/Yelemam/Project1-Telecom-Stock/tree/feature/Hunter
     Sanjana https://github.com/Yelemam/Project1-Telecom-Stock/tree/feature/Sanjana
     Adolphous https://github.com/Yelemam/Project1-Telecom-Stock/tree/feature/Adolphous
